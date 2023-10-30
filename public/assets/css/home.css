@@ -1,0 +1,1868 @@
+                /* home page */
+
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #0B2447;
+    color: #fff;
+    display: flex;
+  }
+
+  .navbar-logo .container{
+    display: none;
+  }
+  .navbar-logo {
+    flex: 1;
+  }
+
+  .navbar-logo img {
+    height: 30px;
+  }
+
+  .navbar-links {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar-links li {
+    margin: 0 5px;
+    list-style: none;
+  }
+
+  .navbar-links a {
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    transition: background 0.3s ease;
+  }
+
+  .navbar-links a:hover {
+    background: #fff;
+    color: #0B2447;
+  }
+
+  .navbar-buttons a{
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    transition: background 0.3s ease;
+  }
+  .navbar-buttons a:hover{
+    background: #fff;
+    color: #0B2447;
+
+  }
+  .navbar-buttons {
+    flex: 1;
+    text-align: right;
+  }
+
+  .navbar-buttons button {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #fff;
+    color: #0B2447;
+    border: none;
+    padding: 7px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-left: 10px;
+  }
+
+  .navbar-buttons button:hover {
+    background: #ccc;
+  }
+
+
+  /* Hero Section1 */
+
+  .hero-section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px 50px 50px;
+    background: #fff;
+    color: #0B2447;
+  }
+
+  .hero-content2 {
+    flex-basis: 50%;
+    text-align: left;
+  }
+
+  .hero-content1 h2 {
+    font-family: 'Lora', serif;
+    font-size: 42px;
+    margin: 0;
+  }
+
+  .hero-content1 h3 {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    padding-left: 5px;
+  }
+
+  .hero-content1 button {
+    background: #0B2447;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+  }
+
+  .hero-content1 button:hover {
+    background: #ccc;
+  }
+
+  .hero-image {
+    flex-basis: 50%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .hero-image img {
+    width: 426px;
+    height: 426px;
+    flex: none;
+order: 0;
+flex-grow: 0;
+  }
+
+
+
+
+  .description-section1 {
+    font-family: 'Lora', serif;
+    font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hero-section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px 100px 50px;
+    background:#0B2447;
+    color: #FFFFFF;
+  }
+
+  .hero-content2 {
+    flex-basis: 50%;
+    text-align: left;
+  }
+
+  .hero-content2 h1 {
+    font-family: 'Lora', serif;
+    font-size: 42px;
+    margin: 0;
+  }
+
+  .hero-content2 p {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+  }
+
+  .hero-content2 a {
+    background:#fff ;
+    color:#0B2447 ;
+    border: none;
+    padding: 12px 24px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .hero-content2 button {
+    background:#fff ;
+    color:#0B2447 ;
+    border: none;
+    padding: 12px 24px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+  }
+
+  .hero-content2 a:hover {
+    background: gainsboro;
+  }
+
+  .hero-image {
+    flex-basis: 50%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .hero-image img {
+    width: 426px;
+    height: 426px;
+  }
+
+
+  /* Description Section */
+
+  .description-section2 {
+    font-family: 'Lora', serif;
+    font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* why us section */
+
+  .why-us{
+    margin-top: 70px;
+  }
+  .why-us h2{
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    text-align: center;
+    color: #0B2447;
+  }
+  .section-3{
+
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+  }
+  .customize{
+    color:white;
+    position: relative;
+    margin: 10px 70px 70px 70px;
+    background-color: rgb(11, 36, 71);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 22%;
+    border: 5px solid  rgb(11, 36, 71);
+    border-radius: 10px;
+  }
+  .customize .icon{
+    position: absolute;
+    background-color: white;
+    width:60px ;
+    height: 40px;
+    margin-left: 38%;
+    border: 0.5px solid  rgb(11, 36, 71);
+    border-radius: 5px;
+    top: -20px ;
+    padding-top: 5px;
+  }
+
+  .customize h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 55px;
+  }
+
+  .customize p{
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight:300;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+
+
+
+      /* pricing-plans */
+
+
+      .section-title {
+        padding-bottom: 40px;
+      }
+
+      .section-title h2 {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0;
+        line-height: 1px;
+        margin: 0 0 5px 0;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #aaaaaa;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .section-title h2::after {
+        content: "";
+        width: 120px;
+        height: 1px;
+        display: inline-block;
+        background: #ffde9e;
+        margin: 4px 10px;
+      }
+
+      .section-title p {
+        margin: 0;
+        margin: 0;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        color: #151515;
+      }
+
+  .pricing-plans{
+    background-color: #0B2447;
+  }
+
+  .pricing-plans h2{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    margin-bottom: 50px;
+  }
+
+  .plans {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .offers{
+
+    background-color: white;
+    margin: 20px 20px 80px 20px ;
+    width: 40%;
+    border: 10px solid #ffffff;
+    border-radius: 15px;
+
+  }
+
+  .offers h3{
+    color: #0B2447;
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .offers .p-one, .p-two{
+    text-align: center;
+    color: #0B2447;
+  }
+  .offers .p-one{
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+
+  }
+
+  .offers .p-three{
+    display: flex;
+    justify-content: center;
+    color: #0B2447;
+  }
+
+  .offers .p-two{
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .offers button{
+    /* margin-left: 112px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 335px;
+    height: 66px;
+    color: #ffffff;
+    background-color: #0B2447;
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .offers .one{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 21px;
+  }
+
+  svg.svg-inline--fa.fa-circle-check {
+    padding-top: 5px;
+  }
+
+  .offers .two{
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  .offers button:hover{
+    border-color:  gainsboro;
+    background: gainsboro;
+  }
+
+  .new{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .new h2{
+    text-align: center;
+    color: #0B2447;
+    padding-top: 25px;
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 55px;
+    margin-bottom: 10px;
+  }
+
+  .new .description{
+    text-align: center;
+    color: #0B2447;
+    padding-top: 25px;
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 55px;
+  }
+
+  .new-one{
+    justify-content: center;
+    margin-top: 80px;
+    width: 100%;
+  }
+
+  .create{
+    color:white;
+    position: relative;
+    margin: 10px 70px 70px 70px;
+    background-color: rgb(11, 36, 71);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 22%;
+    border: 5px solid  rgb(11, 36, 71);
+    border-radius: 10px;
+  }
+
+  .create .icon{
+    font-size: 20px;
+    color: #0B2447;
+    position: absolute;
+    background-color: white;
+    width:60px ;
+    height: 40px;
+    margin-left: 38%;
+    border: 0.5px solid  rgb(11, 36, 71);
+    border-radius: 5px;
+    top: -20px ;
+    padding-top: 5px;
+  }
+
+  .create h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 55px;
+  }
+
+  .create p{
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight:300;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .footer {
+    background-color: #D9D9D9;
+  }
+
+  .footer-content {
+    padding: 40px 40px 90px 40px;
+    width: 100%;
+  }
+
+  .footer-content .logo img{
+    padding-top: 30px;
+  }
+
+  .footer-content h2{
+    text-align: center;
+    color: #0B2447;
+    padding-top: 25px;
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 55px;
+    text-transform: capitalize;
+  }
+
+  .footer-content p {
+    color: #0B2447;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight:300;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: capitalize;
+  }
+
+
+
+
+
+
+
+
+               /* sign up page & login page */
+
+
+.h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+.h1 h1{
+  color: #0B2447;
+  font-family: 'Lora', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 55px;
+}
+.h1 p{
+  color: #0B2447;
+  font-family: 'Lora', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 55px;
+  text-transform: capitalize;
+}
+
+.section-signup .buttons{
+  background-color: #fff;
+  color: #0B2447;
+}
+
+.section-signup .buttons table{
+  display: flex;
+  justify-content: center;
+}
+
+.section-signup .buttons table tr .voter , .organization{
+  cursor: pointer;
+  font-family: 'Lora', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 55px;
+
+}
+
+.section-signup .buttons table tr .voter {
+  padding: 15px 150px;
+  color:#0B2447 ;
+  transition: background 0.3s ease;
+}
+
+.section-signup .buttons table tr .organization{
+  padding: 15px 110px;
+  color:#0B2447 ;
+  transition: background 0.3s ease;
+}
+
+.not-click .voter:hover{
+  background-color:rgb(215, 212, 212);
+  border-top-left-radius: 10px;
+}
+.not-click .organization:hover{
+  background-color:rgb(215, 212, 212);
+  border-top-right-radius: 10px;
+}
+.not-click{
+  background-color: white;
+}
+.not-click .voter , .organization{
+  color: #0B2447;
+}
+
+
+
+
+
+
+
+
+           /* js class  for click */
+
+
+
+.section-signup .buttons table tr .voter-click{
+  background-color: #0B2447;
+  border-top-left-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Lora', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 55px;
+}
+
+.section-signup .buttons table tr .organization-click{
+  background-color: #0B2447;
+  border-top-right-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Lora', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 55px;
+}
+
+
+
+
+
+.form-one , .form-two {
+  background-color: #0B2447;
+}
+.form-one td{
+  display: flex;
+  justify-content: center;
+}
+.form-two td{
+  display: flex;
+  justify-content: center;
+}
+.form-one form{
+  background-color: white;
+  margin: 100px 150px;
+  padding: 70px 100px;
+  border-radius: 10px;
+}
+.form-one form input{
+  border: 2px solid #0B2447;
+}
+.form-one form button{
+  width: 100%;
+  background-color: #0B2447;
+}
+
+.form-two form{
+  background-color: white;
+  margin: 100px 144px;
+  padding: 70px 100px;
+  border-radius: 10px;
+}
+.form-two form input{
+  border: 2px solid #0B2447;
+}
+.form-two form button{
+  width: 100%;
+  background-color: #0B2447;
+}
+
+
+               /* login page */
+
+
+  /* body {
+    background-color: #f2f2f2;
+  } */
+
+  .login-box {
+    background-color: #fff;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .login-box h2 {
+    text-align: center;
+    color: #333;
+  }
+
+  .login-box form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login-box label {
+    margin: 10px 0;
+    color: #333;
+  }
+
+  .login-box input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .login-box input[type="submit"] {
+    background-color: #0B2447;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .login-box input[type="submit"]:hover {
+    background-color:#0B2447;
+  }
+
+              /* voter page */
+
+
+  .arrow {
+    border: solid #0B2447;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 10px;
+    margin-bottom: 3px;
+  }
+  .navbar-buttons-voter{
+    flex: 1;
+    text-align: right;
+  }
+  .navbar-buttons-voter button {
+    display: inline-flex;
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #fff;
+    color: #0B2447;
+    border: none;
+    padding: 10px 24px 5px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-left: 10px;
+  }
+
+
+  .navbar-buttons-voter button:hover {
+    background: #ccc;
+  }
+  .navbar-buttons-voter p{
+    margin-bottom: 10px;
+  }
+  .hero-section1-voter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: #fff;
+    color: #0B2447;
+    margin-top: 10%;
+    margin-bottom: 50px;
+  }
+
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 5px;
+    right: 0px;
+    border-radius: 10px;
+  }
+  .dropdown-content button{
+    margin: auto;
+    font-size: 15px;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content div {
+    color: black;
+    padding: 16px 20px;
+    display: block;
+  }
+
+  .dropdown-content div p{
+    display: flex;
+  }
+  .dropdown-content div p .email{
+    margin-left: 20px;
+    margin-top: 0;
+  }
+
+  .dropdown-content div hr{
+    width: 90%;
+    color: black;
+    margin: auto;
+  }
+
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content div:hover {background-color: #ddd; border-radius: 10px;}
+
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+
+  /* organization page */
+
+
+  .hero-section2-organization .hero-content2 {
+    flex-basis: 50%;
+    text-align: left;
+  }
+  .hero-section2-organization {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7% 50px 7% 50px;
+    background:#0B2447;
+    color: #FFFFFF;
+    margin-top: 5%;
+  }
+
+  .hero-section2-organization .hero-content2 {
+    flex-basis: 50%;
+    text-align: left;
+  }
+
+  .hero-section2-organization .hero-content2 h1 {
+    font-family: 'Lora', serif;
+    font-size: 42px;
+    margin: 0;
+  }
+
+  .hero-section2-organization .hero-content2 p {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+  }
+
+  .hero-section2-organization .hero-content2 button {
+    background:#fff ;
+    color:#0B2447 ;
+    border: none;
+    padding: 12px 24px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+  }
+
+  .hero-section2-organization .hero-content2 button:hover {
+    background: gainsboro;
+  }
+
+
+  /* paymentpage */
+
+
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-left: 5px;
+  }
+
+  .payment{
+    margin: 50px;
+  }
+
+  .payment button{
+    border-radius: 5px;
+  }
+  .payment input{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  .voting h2{
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    color: #0B2447;
+    margin-bottom: 20px;
+  }
+
+  select {
+    height: 40px;
+    border-radius: 5px;
+    width: 500px;
+  }
+  .btn-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+  }
+  .btn-group .btn1 , .btn2 , .btn3{
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+  }
+  .voting{
+    border: 2px #0B2447 solid;
+    display: flex;
+    margin: 10px;
+
+  }
+  .vote-form{
+    padding: 40px;
+    margin: auto;
+
+  }
+  .btn-group .details{
+    font-size: 25px;
+    box-shadow: 0px 0px 5px 3px rgba(128, 128, 128, 0.255);
+
+  }
+  .vote-form label {
+    font-family: 'Lora', serif;
+    color: #0B2447;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .vote-form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .vote-form ul li {
+    margin-bottom: 10px;
+  }
+
+  .vote-form input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  .vote-form input[type="checkbox"] {
+    padding: 7px 5px 5px 5px;
+    border: 1px solid #ccc;
+    width: 15px;
+    height: 15px;
+  }
+  .vote-form .expiry{
+    display: inline-block;
+  }
+  .vote-form .total{
+    font-family: 'Lora', serif;
+    color: #0B2447;
+    font-weight: 800;
+    display: flex;
+  }
+  .vote-form .total .p p{
+    margin-bottom: 30px;
+  }
+  .vote-form .total .span{
+    font-size: 23px;
+    position: absolute;
+    right: 30%;
+  }
+
+  .vote-form hr{
+    margin-top: -19%;
+    color: #0B2447;
+    opacity: 100%;
+    border-width: medium;
+  }
+  .vote-form .buttoons .btn , .btn3{
+    width: 100%;
+  }
+  .vote-form .buttoons .btn{
+    display: inline;
+    margin-top: -2px;
+  }
+  .vote-form .buttoons .btn3:hover{
+    background-color: #dddddd;
+  }
+  .vote-form .buttoons .btn3{
+    background-color: white;
+    color: #0B2447;
+    display: inline;
+    margin-left: 0;
+    border: 1px solid  #0B2447;
+    border-radius: 5px;
+  }
+
+  .vote-form .expiry input{
+    width:100%;
+  }
+
+  .vote-form .btn4{
+    background-color: white;
+    color: #0B2447;
+    border: 1px solid  #0B2447;
+    border-radius: 5px;
+    padding: 5px 5px 9px 0px;
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+  }
+  .vote-form .btn4:hover{
+    background-color: #dddddd;
+  }
+  .vote-form .btn4::before{
+    content: ' \002B';
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  .vote-form button {
+    background-color: #0B2447;
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .Sub-button{
+    display: flex;
+  }
+  .Sub-button .btn2{
+   margin-right: 5px;
+   padding: 0px 30px;
+   height: 40px;
+  }
+  .Sub-button .btn3:hover{
+    background-color: #dddddd;
+  }
+  .vote-form-two .Sub-button .btn3:hover{
+    background-color: #dddddd;
+  }
+  .Sub-button .btn3{
+    background-color: white;
+    color: #0B2447;
+    border: 1px solid  #0B2447;
+    border-radius: 5px;
+    height: 40px;
+    position: inherit;
+    width: 35%;
+    cursor: pointer;
+    padding-top: 7px;
+  }
+  .vote-form-two .Sub-button{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+  }
+  .vote-form-two button {
+    background-color: #0B2447;
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .vote-form-two .Sub-button .btn2{
+   margin-right: 5px;
+   padding: 0px 30px;
+  }
+  .vote-form-two .Sub-button .btn3{
+    background-color: white;
+    color: #0B2447;
+    border: 1px solid  #0B2447;
+    border-radius: 5px;
+    height: 40px;
+    position: inherit;
+    cursor: pointer;
+    width: auto;
+    padding-top: 7px;
+  }
+  .vote-form-two{
+    display: none;
+    justify-content: center;
+  }
+  .vote-form-two .photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .photo-container img{
+    width: 20%;
+    cursor: pointer;
+    transition-property: opacity , width;
+    transition-duration: 0.5s;
+    transition-timing-function:ease-in-out;
+    opacity: 50%;
+
+  }
+  .photo-container img:hover{
+    opacity: 100%;
+    width: 21%;
+  }
+
+  .vote-form-two input[type="radio"] {
+    display: none;
+  }
+
+  .vote-form-two input[type="radio"]:checked + .photo-wrapper {
+    border-color: red;
+  }
+
+
+  .vote-form-three{
+    padding: 40px;
+    margin: auto;
+
+  }
+
+  .vote-form-three label {
+    font-family: 'Lora', serif;
+    color: #0B2447;
+    display: block;
+    margin-top: 10px;
+  }
+
+
+  .vote-form-three input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  .vote-form-three input[type="checkbox"] {
+    padding: 7px 5px 5px 5px;
+    border: 1px solid #ccc;
+    width: 15px;
+    height: 15px;
+  }
+  .vote-form-three .expiry{
+    display: inline-block;
+  }
+  .vote-form-three .total{
+    font-family: 'Lora', serif;
+    color: #0B2447;
+    font-weight: 800;
+    display: flex;
+  }
+  .vote-form-three .total .p p{
+    margin-bottom: 30px;
+  }
+  .vote-form-three .total .span{
+    font-size: 23px;
+    position: absolute;
+    right: 30%;
+  }
+
+  .vote-form-three hr{
+    margin-top: -30%;
+    height: 12px;
+    color: #0B2447;
+    opacity: 100%;
+    border-width: medium;
+  }
+  .vote-form-three .buttoons .btn , .btn3{
+    width: 100%;
+  }
+  .vote-form-three .buttoons .btn{
+    display: inline;
+    margin-top: -2px;
+  }
+  .vote-form-three .buttoons .btn3:hover{
+    background-color: #dddddd;
+  }
+  .vote-form-three .buttoons .btn3{
+    background-color: white;
+    color: #0B2447;
+    display: inline;
+    margin-left: 0;
+    border: 1px solid  #0B2447;
+    border-radius: 5px;
+  }
+
+  .vote-form-three .expiry input{
+    width:100%;
+  }
+
+  .vote-form-three button {
+    background-color: #0B2447;
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .show-medium {
+    display: none;
+  }
+
+
+  /* voter light page */
+
+
+
+
+.Voterlight-section h1 {
+    font-family: 'Lora', serif;
+    text-align: center;
+    background-color:#0B2447;
+    color: #f3f3f3;
+    padding: 20px ;
+}
+
+.candidates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.candidates form {
+	width: 80%;
+	margin: 0 auto;
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.candidate {
+	align-items: center;
+	margin-bottom: 50px;
+    border: 2px solid;
+	background-color: #0B2447;
+    color: white;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.candidate img {
+	width: 20%;
+	margin-right: 10px;
+	border-radius: 50%;
+    background-color: #f2f2f2;
+}
+
+.candidate label {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+.candidate input[type="checkbox"] {
+	display: none;
+}
+
+.candidate input[type="checkbox"] + label:before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	border-radius: 50%;
+	background-color: #ccc;
+}
+
+.candidates .button{
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color:#0B2447;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 15%;
+}
+
+.candidate input[type="checkbox"]:checked + label:before {
+	background-color: #2196f3;
+}
+
+.candidate label span {
+	font-size: 18px;
+	font-weight: bold;
+  font-family: 'Lora', serif;
+}
+.candidate p {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #f3f3f3;
+    margin: 0;
+}
+
+.bottom-line {
+    border-top: 1px solid #999;
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.bottom-line button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color:#0B2447;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+/* voter dark page  */
+
+
+
+.voterdark {
+  /* max-width: 800px;
+  margin-top: 50px;
+  padding: 20px;
+  border: 2px solid; */
+  background-color: black;
+}
+
+.voterdark h1 {
+  font-family: 'Lora', serif;
+  text-align: center;
+  background-color:white;
+  color:black;
+  padding: 20px ;
+}
+
+.voterdark .candidates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.voterdark .candidate {
+  width: 22%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px #999;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.voterdark .candidate img {
+  width: 100%;
+  height: auto;
+}
+.voterdark .candidate:hover {
+  border: 2px solid;
+    background-color: #999;
+    transition: background 0.3s ease;
+}
+.voterdark .candidate p {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color:black;
+  margin: 0;
+}
+
+.bottom-line-dark {
+  border-top: 1px solid #999;
+  margin-top: 20px;
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+}
+
+.bottom-line-dark button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color:white;
+  color:black;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+
+/* announcment page  */
+
+.announcment-form label{
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0B2447;
+}
+
+.announcment-form input{
+  height: 80px;
+  border: #0B2447 2px solid;
+  border-radius: 5px;
+}
+.announcment-form button{
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color:#0B2447;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.message {
+  border: #0B2447 solid 2px;
+  border-radius: 10px;
+  width: 60%;
+  margin: auto;
+  display: none;
+}
+
+
+  @media screen and (max-width: 1200px) {
+    .body {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .nav-container {
+      width: 80%;
+    }
+    .candidates .button{
+      display: block;
+      margin: 0 auto;
+      padding: 10px 20px;
+      background-color:#0B2447;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      width: 30%;
+    }
+    .candidate {
+      align-items: center;
+      margin-bottom: 50px;
+        border: 2px solid;
+      background-color: #0B2447;
+        color: white;
+        border-radius: 20px;
+        width: 100%;
+
+    }
+
+    .candidate img {
+      width: 50%;
+      margin-right: 10px;
+      border-radius: 50%;
+        background-color: #f2f2f2;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+
+
+  }
+
+  @media screen and (max-width: 480px) {
+    html,
+    body {
+      overflow-x: none;
+      width:fit-content;
+    }
+
+    .navbar-links{
+      display: none;
+    }
+
+    .hero-image img{
+      width: 300px;
+    }
+
+    .navbar{
+      width: 100%;
+      display: inline-block;
+    }
+
+    .navbar-logo{
+      display: flex;
+    }
+
+
+    .navbar-buttons{
+      display: none;
+      padding-bottom: 90%;
+    }
+
+    .navbar-buttons button{
+      width: 30%;
+      margin-top: 50%;
+      margin-right: 33%;
+    }
+
+    .display{
+      display: block;
+    }
+
+
+    .navbar .container div{
+      margin-left: 90px;
+    }
+    .navbar .container {
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .bar1, .bar2, .bar3 {
+      width: 35px;
+      height: 5px;
+      background-color: #ffffff;
+      margin: 6px 0;
+      transition: 0.4s;
+    }
+
+    .change .bar1 {
+      transform: translate(0, 11px) rotate(-45deg);
+    }
+
+    .change .bar2 {opacity: 0;}
+
+    .change .bar3 {
+      transform: translate(0, -11px) rotate(45deg);
+    }
+
+    .plans{
+      margin: auto;
+    }
+
+    .offers h3 {
+      /* font-size: large; */
+      width: 100%;
+    }
+
+    .offers{
+      width: 80%;
+    }
+
+    .offers .one{
+      width: 100%;
+      /* font-size: small; */
+    }
+
+    .offers .two{
+      width: 100%;
+      /* font-size: small; */
+    }
+
+    .customize{
+      width: 100%;
+      left: 11px;
+    }
+
+    .create{
+      width: 100%;
+      left: 11px;
+    }
+    .footer{
+      margin: auto;
+    }
+
+
+    /* payment page */
+
+
+    .dropdown{
+      display: none;
+      margin-top: 60%;
+      margin-bottom: 60%;
+      margin-left: 35%;
+    }
+    .navbar-logo .bar{
+      position: absolute;
+      left: 78%;
+      width: 0px;
+    }
+    .dropdown button{
+      display: flex;
+
+    }
+    .display{
+      display: block;
+    }
+    /* .dropdown-content{
+      left: 50%;
+      width: fit-content;
+    } */
+
+    .vote-form-two .photo-container{
+      width: 600px;
+    }
+
+    .vote-form-three hr{
+      margin-top: -23%;
+    }
+
+    /* voterlight  */
+
+    .candidate {
+      align-items: center;
+      margin-bottom: 50px;
+        border: 2px solid;
+      background-color: #0B2447;
+        color: white;
+        border-radius: 20px;
+        width: 100%;
+
+    }
+
+    .candidate img {
+      width: 30%;
+      margin-right: 10px;
+      border-radius: 50%;
+        background-color: #f2f2f2;
+    }
+
+    .candidate label {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+
+    .candidate input[type="checkbox"] {
+      display: none;
+    }
+
+    .candidate input[type="checkbox"] + label:before {
+      content: "";
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      border-radius: 50%;
+      background-color: #ccc;
+    }
+
+    .candidates .button{
+      display: block;
+      margin: 0 auto;
+      padding: 10px 20px;
+      background-color:#0B2447;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      width: 50%;
+    }
+
+    .candidate input[type="checkbox"]:checked + label:before {
+      background-color: #2196f3;
+    }
+
+    .candidate label span {
+      font-size: 18px;
+      font-weight: bold;
+      font-family: 'Lora', serif;
+    }
+
+
+  /* voter dark  */
+    .voterdark .candidate {
+      width: 100%;
+      margin-bottom: 20px;
+      box-shadow: 0 0 5px #999;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    .voterdark .candidate img {
+      width: 70%;
+      display: flex;
+      height: auto;
+      margin: auto;
+  }
+  }
+  select {
+    width: 200px;
+  }
+  .textt span{
+    cursor: pointer;
+  }
+  .textt span:hover{
+    color: blue;
+  }
+  .textt h2{
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-weight: 600;
+    font-size: 38px;
+  }
+  .item {
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+    border: 1px #0B2447 solid;
+    cursor: pointer;
+  }
+  .announcment{
+    color: #0B2447;
+  }
+  .announcment .board .boxx{
+    background-color: #0B2447;
+  }
+
+  .addd:hover{
+    color: blue;
+    border-color: blue;
+  }
+  @media screen and (max-width: 480px) {
+    html,
+    body {
+      overflow-x: none;
+      width:fit-content;
+    }
+    .navbar{
+      width: 100%;
+    }
+    .navbar-logo{
+      display: flex;
+    }
+
+    .dropdownn{
+      display: none;
+      margin-top: 100%;
+      margin-bottom: 100%;
+    }
+    .dropdownn button{
+      margin-right:30%;
+    }
+    .display{
+      display: block;
+    }
+    .dropdown-content{
+      left: 50%;
+      width: fit-content;
+    }
+  }
